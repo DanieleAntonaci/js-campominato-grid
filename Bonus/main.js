@@ -1,7 +1,7 @@
 'use strict'
 const container = document.querySelector('.container');
 const btnPlay = document.querySelector('button#play');
-
+let difficultyLevel;
 function createBox() {
     const divBox = document.createElement('div');
 
@@ -10,8 +10,9 @@ function createBox() {
 
 // bottone per far comparire la griglia
 btnPlay.addEventListener('click', function () {
+    container.innerHTML = '';
     container.classList.remove('hidden');
-    let difficultyLevel = document.querySelector('#difficulty-level').value;
+    difficultyLevel = document.querySelector('#difficulty-level').value;
     if (difficultyLevel === 'easy') {
         for (let i = 0; i < 100; i++) {
             // crea l'elemento div

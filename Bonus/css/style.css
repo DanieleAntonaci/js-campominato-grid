@@ -32,12 +32,13 @@ header h1 img {
 
 /* main */
 main{
-    width: 80vw;
-    height: 80vw;
-    margin: 50px auto;
-    /* background-color:; */
+
 }
 .container {
+    width: 70vw;
+    height: 70vw;
+    margin: 50px auto; 
+    
     display: flex;
     flex-wrap: wrap;
     background-color: white;
@@ -52,16 +53,16 @@ main{
     align-items: center;
 }
 .easy{
-    width: 8vw;
-    height: 8vw;
+    width: 7vw;
+    height: 7vw;
 }
 .medium{
-    width: calc(80vw / 9);
-    height: calc(80vw / 9);
+    width: calc(70vw / 9);
+    height: calc(70vw / 9);
 }
 .hard{
-    width: calc(80vw/7);
-    height: calc(80vw / 7);
+    width: calc(70vw/7);
+    height: calc(70vw / 7);
 }
 .box.clicked{
     background-color: aqua;
