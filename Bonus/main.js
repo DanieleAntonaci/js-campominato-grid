@@ -31,7 +31,7 @@ btnPlay.addEventListener('click', function () {
             container.appendChild(boxNumerato)
         };
     } else if (difficultyLevel === 'medium') {
-        for (let i = 0; i < 90; i++) {
+        for (let i = 0; i < 81; i++) {
             // crea l'elemento div
             let boxNumerato = createBox();
             // lo numera
@@ -48,7 +48,7 @@ btnPlay.addEventListener('click', function () {
             container.appendChild(boxNumerato)
         };
     } else if (difficultyLevel === 'hard') {
-        for (let i = 0; i < 70; i++) {
+        for (let i = 0; i < 49; i++) {
             // crea l'elemento div
             let boxNumerato = createBox();
             // lo numera
