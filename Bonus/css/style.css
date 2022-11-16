@@ -32,8 +32,8 @@ header h1 img {
 
 /* main */
 main{
-    width: 1000px;
-    height: 1000px;
+    width: 80vw;
+    height: 80vw;
     margin: 50px auto;
     /* background-color:; */
 }
@@ -52,16 +52,16 @@ main{
     align-items: center;
 }
 .easy{
-    width: 7vw;
-    height: 7vw;
+    width: 8vw;
+    height: 8vw;
 }
 .medium{
-    width: calc(100% / 9);
-    height: 7vw;
+    width: calc(80vw / 9);
+    height: calc(80vw / 9);
 }
 .hard{
-    width: calc(100%/7);
-    height: 10vw;
+    width: calc(80vw/7);
+    height: calc(80vw / 7);
 }
 .box.clicked{
     background-color: aqua;
