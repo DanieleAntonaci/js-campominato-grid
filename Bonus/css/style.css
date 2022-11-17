@@ -31,14 +31,11 @@ header h1 img {
 }
 
 /* main */
-main{
-
-}
 .container {
     width: 70vw;
     height: 70vw;
     margin: 50px auto; 
-    
+
     display: flex;
     flex-wrap: wrap;
     background-color: white;
@@ -67,10 +64,6 @@ main{
 .box.clicked{
     background-color: aqua;
 }
-.hidden{
-    display: none;
-}
-
 /* footer */
 footer{
     padding: 20px;

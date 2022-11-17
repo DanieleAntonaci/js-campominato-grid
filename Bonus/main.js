@@ -11,7 +11,7 @@ function createBox() {
 // bottone per far comparire la griglia
 btnPlay.addEventListener('click', function () {
     container.innerHTML = '';
-    container.classList.remove('hidden');
+    console.clear();
     difficultyLevel = document.querySelector('#difficulty-level').value;
     if (difficultyLevel === 'easy') {
         for (let i = 0; i < 100; i++) {
@@ -25,7 +25,7 @@ btnPlay.addEventListener('click', function () {
 
             // bottone che cambia il colore
             boxNumerato.addEventListener('click', function () {
-                this.classList.toggle('clicked')
+                this.classList.add('clicked')
                 console.log(`Hai selzionato la casella ${i + 1}`);
             })
             container.appendChild(boxNumerato)
@@ -42,7 +42,7 @@ btnPlay.addEventListener('click', function () {
 
             // bottone che cambia il colore
             boxNumerato.addEventListener('click', function () {
-                this.classList.toggle('clicked')
+                this.classList.add('clicked')
                 console.log(`Hai selzionato la casella ${i + 1}`);
             })
             container.appendChild(boxNumerato)
@@ -59,7 +59,7 @@ btnPlay.addEventListener('click', function () {
 
             // bottone che cambia il colore
             boxNumerato.addEventListener('click', function () {
-                this.classList.toggle('clicked')
+                this.classList.add('clicked')
                 console.log(`Hai selzionato la casella ${i + 1}`);
             })
             container.appendChild(boxNumerato)

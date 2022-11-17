@@ -54,9 +54,6 @@ main{
 .box.clicked{
     background-color: aqua;
 }
-.hidden{
-    display: none;
-}
 
 /* footer */
 footer{
